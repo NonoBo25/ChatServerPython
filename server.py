@@ -32,6 +32,7 @@ def broadcast(message):
 
 
 def main():
+    print("Waiting.....")
     global CLIENTS
     sock=socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
     sock.bind((SERVER, PORT))
